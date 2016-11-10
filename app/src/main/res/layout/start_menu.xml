@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.liran.liran1.BodyDetection"
+    android:id="@+id/start_menu"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@mipmap/welcome">
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:text="Detection Definitions" android:id="@+id/button_start"
+
+        />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="73dp"
+        android:text="Sound definitions" android:id="@+id/button_sounds_def"
+        android:layout_below="@+id/button_start"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom|center"
+        android:textSize="40dp"
+        android:fontFamily="Arial"
+        android:text="@string/get_welcome"
+        android:paddingBottom="53dp"/>
+
+    <Button
+        android:text="Play detection" android:id="@+id/btnDisplay"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+
+
+         />
+
+
+
+</RelativeLayout>
