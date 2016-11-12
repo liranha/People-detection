@@ -1,6 +1,5 @@
 # People-detection
 
-this project contains a face or body detection application, in android.
-using the android NDK, in c++ to get a real time results.
-this project is under construction and i would like to develop it to more functions, such as
-face recognition, etc...
+this android application contains a face or body detection, decided by the user.
+the detection algorithm is implemented in c++, by android NDK, OpenCV, for real time detection.
+this project is under construction and i would like to develop it for a greater functionality, such as face recognition, etc...
